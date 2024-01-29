@@ -130,10 +130,12 @@
     <ClCompile Include="3D.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Curve.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Curve.h" />
+    <ClInclude Include="Ellipse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
