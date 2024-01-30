@@ -3,7 +3,6 @@
 
 class Ellipse : public Curve
 {
-private:
 	double RadiusX;
 	double RadiusY;
 
@@ -12,7 +11,5 @@ public:
 	DoubleVector GetDerivative(double t) override;
 
 	Ellipse(double radiusValueX, double radiusValueY);
-	~Ellipse();
-
 };
 

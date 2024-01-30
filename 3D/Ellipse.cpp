@@ -12,11 +12,7 @@ DoubleVector Ellipse::GetDerivative(double t)
 }
 
 Ellipse::Ellipse(double radiusValue1, double radiusValue2)
-{
-	RadiusX = radiusValue1;
-	RadiusY = radiusValue2;
-}
-
-Ellipse::~Ellipse()
+	: RadiusX(radiusValue1)
+	, RadiusY(radiusValue2)
 {
 }

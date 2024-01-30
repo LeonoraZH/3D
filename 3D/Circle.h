@@ -1,10 +1,8 @@
 #pragma once
-#include <vector>
 #include "Curve.h"
 
 class Circle : public Curve
 {
-private:
 	double Radius;
 
 public:
@@ -14,7 +12,6 @@ public:
 	DoubleVector GetDerivative(double t) override;
 
 	Circle(double radiusValue);
-	~Circle();
 
 };
 

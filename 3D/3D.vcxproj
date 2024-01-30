@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="3D.cpp" />
     <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="Curve.cpp" />
     <ClCompile Include="Ellipse.cpp" />
     <ClCompile Include="Helix.cpp" />
   </ItemGroup>

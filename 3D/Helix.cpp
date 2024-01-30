@@ -11,11 +11,7 @@ DoubleVector Helix::GetDerivative(double t)
 }
 
 Helix::Helix(double radiusValue, double stepValue)
-{
-	Radius = radiusValue;
-	Step = stepValue;
-}
-
-Helix::~Helix()
+	: Radius(radiusValue)
+	, Step(stepValue)
 {
 }

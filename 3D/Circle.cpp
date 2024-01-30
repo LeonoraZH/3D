@@ -18,10 +18,6 @@ DoubleVector Circle::GetDerivative(double t)
 }
 
 Circle::Circle(double radiusValue)
-{
-	Radius = radiusValue;
-}
-
-Circle::~Circle()
+	: Radius(radiusValue)
 {
 }

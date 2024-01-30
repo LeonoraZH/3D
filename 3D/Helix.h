@@ -3,7 +3,6 @@
 
 class Helix : public Curve
 {
-private:
 	double Radius;
 	double Step;
 
@@ -12,6 +11,5 @@ public:
 	DoubleVector GetDerivative(double t) override;
 
 	Helix(double radiusValue, double stepValue);
-	~Helix();
 };
 
