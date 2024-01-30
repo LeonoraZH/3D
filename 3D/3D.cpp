@@ -21,7 +21,7 @@ int main()
 	const size_t containerSize = 20;
 	vector<unique_ptr<Curve>> curves = FillContainerWithCurves(containerSize);
 
-	double t = 0.785397;
+	const double t = 0.785397;
 
 	for (const auto& curve : curves)
 	{
@@ -42,8 +42,6 @@ int main()
 			circles.push_back(circle);
 	}
 
-	cout << circles.size() << endl;
-
 	sort(circles.begin(), circles.end(), [](const auto& a, const auto& b)
 		{
 			return a->GetRadius() < b->GetRadius();
@@ -54,6 +52,7 @@ int main()
 		radiiSum += circle->GetRadius();
 	}
 
+	cout << "Total sum of radii of all circles = " << radiiSum << endl;
 
 	return 0;
 }
