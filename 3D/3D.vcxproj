@@ -131,11 +131,13 @@
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Curve.cpp" />
     <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="Helix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Curve.h" />
     <ClInclude Include="Ellipse.h" />
+    <ClInclude Include="Helix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

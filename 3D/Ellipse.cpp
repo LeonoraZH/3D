@@ -1,3 +1,4 @@
+#include <cmath>
 #include "Ellipse.h"
 
 DoubleVector Ellipse::GetPoint(double t)
