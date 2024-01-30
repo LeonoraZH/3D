@@ -9,6 +9,7 @@ private:
 
 public:
 
+	double GetRadius();
 	DoubleVector GetPoint(double t) override;
 	DoubleVector GetDerivative(double t) override;
 

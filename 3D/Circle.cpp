@@ -2,6 +2,11 @@
 #include "Circle.h"
 
 
+double Circle::GetRadius()
+{
+	return Radius;
+}
+
 DoubleVector Circle::GetPoint(double t)
 {
 	return { Radius * cos(t), Radius * sin(t), 0.0 };
